@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Text2Tow — One Call. Nearest Truck. Upfront Price.</title>
-<meta name="description" content="Stranded? Text2Tow gets you the nearest licensed local tow truck at an upfront price, 24/7. Call (470) 946-STOW. Metro Atlanta.">
+<meta name="description" content="Stranded? Text2Tow gets you the nearest licensed local tow truck at an upfront price, 24/7. Call or text (470) 946-STOW. Metro Atlanta.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
@@ -57,6 +57,16 @@
   .services { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; padding-top: 1rem; }
   .chip { border: 1px solid var(--line); border-radius: 999px; padding: .35rem .9rem; color: var(--muted); font-size: .9rem; }
 
+  .sms { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem 1.4rem; margin-top: 1rem; }
+  .sms .lead { color: var(--ink); font-size: 1.05rem; }
+  .sms .lead strong { color: var(--amber); }
+  .sms .num { font-family: "IBM Plex Mono", monospace; color: var(--amber); font-weight: 600; white-space: nowrap; }
+  .sms ul { margin: 1rem 0 0; padding: 0; list-style: none; }
+  .sms li { color: var(--muted); font-size: .92rem; padding: .28rem 0 .28rem 1.4rem; position: relative; }
+  .sms li::before { content: "›"; color: var(--amber); position: absolute; left: .3rem; top: .1rem; }
+  .sms .fine { color: #7c8087; font-size: .82rem; margin-top: 1rem; line-height: 1.5; }
+  .sms .fine a { color: var(--muted); }
+
   .final { text-align: center; padding: 2.8rem 0 1rem; }
   footer { margin-top: 2.6rem; border-top: 1px solid var(--line); padding: 1.4rem 0 2.2rem; color: #7c8087; font-size: .8rem; text-align: center; }
   footer a { color: var(--muted); }
@@ -104,6 +114,20 @@
   </div>
 </section>
 
+<section>
+  <h2>Text updates on your tow</h2>
+  <div class="sms">
+    <p class="lead">Rather text than talk? <strong>Text your location to <span class="num">(470)&nbsp;946-7869</span></strong> and we'll get right back to you. Either way — call or text — once we have your request we'll send text updates on your tow: your <strong>confirmed price</strong>, your <strong>driver's name</strong>, and their <strong>ETA</strong>.</p>
+    <ul>
+      <li>By calling or texting (470) 946-7869 to request a tow, you agree to receive text messages from Text2Tow about that request.</li>
+      <li>Message types: dispatch confirmation, price confirmation, driver name &amp; ETA, and arrival updates for the tow you requested.</li>
+      <li>Message frequency varies based on your request. Msg &amp; data rates may apply.</li>
+      <li>Reply <strong>STOP</strong> to opt out at any time, <strong>HELP</strong> for help.</li>
+    </ul>
+    <p class="fine">Your mobile opt-in information is never sold or shared with third parties for marketing. See our <a href="privacy.html">Privacy Policy</a> and <a href="sms-terms.html">SMS Terms</a>.</p>
+  </div>
+</section>
+
 <div class="band">
   <p><strong>Why not just Google "tow truck near me"?</strong> Because at 2 AM, half those numbers ring to voicemail — and the ones that answer quote you one price on the phone and another on the invoice. We answer in one ring and lock the price first. That's the whole idea.</p>
 </div>
@@ -119,7 +143,8 @@
 </div>
 
 <footer>
-  Text2Tow is a dispatch network operated by Signature Branding &amp; Marketing. We connect drivers with independent, licensed, and insured towing providers; we do not own or operate tow trucks. Prices are confirmed with you before dispatch.<br><br>
+  Text2Tow is a dispatch network operated by Signature Branding &amp; Marketing (Whatif Multimedia Productions, Inc.). We connect drivers with independent, licensed, and insured towing providers; we do not own or operate tow trucks. Prices are confirmed with you before dispatch.<br><br>
+  <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="sms-terms.html">SMS Terms</a><br><br>
   Tow operator? <a href="https://signaturetow.com/">Join our partner network — free</a>
 </footer>
 
